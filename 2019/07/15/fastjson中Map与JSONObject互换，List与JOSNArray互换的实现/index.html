@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="1、//将map转换成jsonObjectJSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap)); 将Map类型的itemInfo转换成json，再经JSONObject转换实现。 2、//将jsonObj转换成MapMap&amp;lt;String, Object&amp;gt; itemMap = JSONObj">
+<meta name="description" content="1、将map转换成jsonObjectJSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap)); 将Map类型的itemInfo转换成json，再经JSONObject转换实现。 2、将jsonObj转换成MapMap&amp;lt;String, Object&amp;gt; itemMap = JSONObject.">
 <meta name="keywords" content="JSONObject,map">
 <meta property="og:type" content="article">
 <meta property="og:title" content="fastjson中Map与JSONObject互换，List与JOSNArray互换的实现">
 <meta property="og:url" content="http://yoursite.com/2019/07/15/fastjson中Map与JSONObject互换，List与JOSNArray互换的实现/index.html">
 <meta property="og:site_name" content="超超的博客">
-<meta property="og:description" content="1、//将map转换成jsonObjectJSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap)); 将Map类型的itemInfo转换成json，再经JSONObject转换实现。 2、//将jsonObj转换成MapMap&amp;lt;String, Object&amp;gt; itemMap = JSONObj">
+<meta property="og:description" content="1、将map转换成jsonObjectJSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap)); 将Map类型的itemInfo转换成json，再经JSONObject转换实现。 2、将jsonObj转换成MapMap&amp;lt;String, Object&amp;gt; itemMap = JSONObject.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-15T01:55:58.362Z">
+<meta property="og:updated_time" content="2019-07-15T02:37:50.602Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="fastjson中Map与JSONObject互换，List与JOSNArray互换的实现">
-<meta name="twitter:description" content="1、//将map转换成jsonObjectJSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap)); 将Map类型的itemInfo转换成json，再经JSONObject转换实现。 2、//将jsonObj转换成MapMap&amp;lt;String, Object&amp;gt; itemMap = JSONObj">
+<meta name="twitter:description" content="1、将map转换成jsonObjectJSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap)); 将Map类型的itemInfo转换成json，再经JSONObject转换实现。 2、将jsonObj转换成MapMap&amp;lt;String, Object&amp;gt; itemMap = JSONObject.">
 
 
 
@@ -355,12 +355,12 @@
       
 
       
-        <h3 id="1、-将map转换成jsonObject"><a href="#1、-将map转换成jsonObject" class="headerlink" title="1、//将map转换成jsonObject"></a>1、//将map转换成jsonObject</h3><p>JSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap));</p>
+        <h3 id="1、将map转换成jsonObject"><a href="#1、将map转换成jsonObject" class="headerlink" title="1、将map转换成jsonObject"></a>1、将map转换成jsonObject</h3><p>JSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap));</p>
 <p>将Map类型的itemInfo转换成json，再经JSONObject转换实现。</p>
-<h3 id="2、-将jsonObj转换成Map"><a href="#2、-将jsonObj转换成Map" class="headerlink" title="2、//将jsonObj转换成Map"></a>2、//将jsonObj转换成Map</h3><p>Map&lt;String, Object&gt; itemMap = JSONObject.toJavaObject(itemJSONObj, Map.class);</p>
+<h3 id="2、将jsonObj转换成Map"><a href="#2、将jsonObj转换成Map" class="headerlink" title="2、将jsonObj转换成Map"></a>2、将jsonObj转换成Map</h3><p>Map&lt;String, Object&gt; itemMap = JSONObject.toJavaObject(itemJSONObj, Map.class);</p>
 <p>//JOSN.parseObjet()方法同样可以转换</p>
-<h3 id="3、-将List转换成JSONArray"><a href="#3、-将List转换成JSONArray" class="headerlink" title="3、//将List转换成JSONArray"></a>3、//将List转换成JSONArray</h3><p>JSONArray ja = JSONArray.parseArray(JSON.toJSONString(itemList));</p>
-<h3 id="4、-将JSONArray转换成List"><a href="#4、-将JSONArray转换成List" class="headerlink" title="4、//将JSONArray转换成List"></a>4、//将JSONArray转换成List</h3><p>这个涉及功能比较广，有达人整理的更为完善。</p>
+<h3 id="3、将List转换成JSONArray"><a href="#3、将List转换成JSONArray" class="headerlink" title="3、将List转换成JSONArray"></a>3、将List转换成JSONArray</h3><p>JSONArray ja = JSONArray.parseArray(JSON.toJSONString(itemList));</p>
+<h3 id="4、将JSONArray转换成List"><a href="#4、将JSONArray转换成List" class="headerlink" title="4、将JSONArray转换成List"></a>4、将JSONArray转换成List</h3><p>这个涉及功能比较广，有达人整理的更为完善。</p>
 <p>链接如下：</p>
 <p><a href="http://www.cnblogs.com/goody9807/p/4244862.html" target="_blank" rel="noopener">http://www.cnblogs.com/goody9807/p/4244862.html</a></p>
 <h3 id="5-json转成对象"><a href="#5-json转成对象" class="headerlink" title="5 json转成对象"></a>5 json转成对象</h3><p>List<channelitem> channelItemList  = JSON.parseArray(itemJson,ChannelItem.class);</channelitem></p>
@@ -538,7 +538,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、-将map转换成jsonObject"><span class="nav-number">1.</span> <span class="nav-text">1、//将map转换成jsonObject</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、-将jsonObj转换成Map"><span class="nav-number">2.</span> <span class="nav-text">2、//将jsonObj转换成Map</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、-将List转换成JSONArray"><span class="nav-number">3.</span> <span class="nav-text">3、//将List转换成JSONArray</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、-将JSONArray转换成List"><span class="nav-number">4.</span> <span class="nav-text">4、//将JSONArray转换成List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-json转成对象"><span class="nav-number">5.</span> <span class="nav-text">5 json转成对象</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、将map转换成jsonObject"><span class="nav-number">1.</span> <span class="nav-text">1、将map转换成jsonObject</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、将jsonObj转换成Map"><span class="nav-number">2.</span> <span class="nav-text">2、将jsonObj转换成Map</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、将List转换成JSONArray"><span class="nav-number">3.</span> <span class="nav-text">3、将List转换成JSONArray</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、将JSONArray转换成List"><span class="nav-number">4.</span> <span class="nav-text">4、将JSONArray转换成List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-json转成对象"><span class="nav-number">5.</span> <span class="nav-text">5 json转成对象</span></a></li></ol></div>
             
 
           </div>

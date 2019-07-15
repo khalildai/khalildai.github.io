@@ -358,12 +358,12 @@
       
         
           
-            <h3 id="1、-将map转换成jsonObject"><a href="#1、-将map转换成jsonObject" class="headerlink" title="1、//将map转换成jsonObject"></a>1、//将map转换成jsonObject</h3><p>JSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap));</p>
+            <h3 id="1、将map转换成jsonObject"><a href="#1、将map转换成jsonObject" class="headerlink" title="1、将map转换成jsonObject"></a>1、将map转换成jsonObject</h3><p>JSONObject itemJSONObj = JSONObject.parseObject(JSON.toJSONString(itemMap));</p>
 <p>将Map类型的itemInfo转换成json，再经JSONObject转换实现。</p>
-<h3 id="2、-将jsonObj转换成Map"><a href="#2、-将jsonObj转换成Map" class="headerlink" title="2、//将jsonObj转换成Map"></a>2、//将jsonObj转换成Map</h3><p>Map&lt;String, Object&gt; itemMap = JSONObject.toJavaObject(itemJSONObj, Map.class);</p>
+<h3 id="2、将jsonObj转换成Map"><a href="#2、将jsonObj转换成Map" class="headerlink" title="2、将jsonObj转换成Map"></a>2、将jsonObj转换成Map</h3><p>Map&lt;String, Object&gt; itemMap = JSONObject.toJavaObject(itemJSONObj, Map.class);</p>
 <p>//JOSN.parseObjet()方法同样可以转换</p>
-<h3 id="3、-将List转换成JSONArray"><a href="#3、-将List转换成JSONArray" class="headerlink" title="3、//将List转换成JSONArray"></a>3、//将List转换成JSONArray</h3><p>JSONArray ja = JSONArray.parseArray(JSON.toJSONString(itemList));</p>
-<h3 id="4、-将JSONArray转换成List"><a href="#4、-将JSONArray转换成List" class="headerlink" title="4、//将JSONArray转换成List"></a>4、//将JSONArray转换成List</h3><p>这个涉及功能比较广，有达人整理的更为完善。</p>
+<h3 id="3、将List转换成JSONArray"><a href="#3、将List转换成JSONArray" class="headerlink" title="3、将List转换成JSONArray"></a>3、将List转换成JSONArray</h3><p>JSONArray ja = JSONArray.parseArray(JSON.toJSONString(itemList));</p>
+<h3 id="4、将JSONArray转换成List"><a href="#4、将JSONArray转换成List" class="headerlink" title="4、将JSONArray转换成List"></a>4、将JSONArray转换成List</h3><p>这个涉及功能比较广，有达人整理的更为完善。</p>
 <p>链接如下：</p>
 <p><a href="http://www.cnblogs.com/goody9807/p/4244862.html" target="_blank" rel="noopener">http://www.cnblogs.com/goody9807/p/4244862.html</a></p>
 <h3 id="5-json转成对象"><a href="#5-json转成对象" class="headerlink" title="5 json转成对象"></a>5 json转成对象</h3><p>List<channelitem> channelItemList  = JSON.parseArray(itemJson,ChannelItem.class);</channelitem></p>
